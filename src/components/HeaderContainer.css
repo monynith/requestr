@@ -1,0 +1,48 @@
+#right-side-toolbar{
+    right: 10px;
+    top: 20px;    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 2000;
+}
+
+#title {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#toolbar {
+    height: 80px;
+}
+
+#header {
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.13), 0 3px 3px 0 rgba(0, 0, 0, 0.01), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.13), 0 3px 3px 0 rgba(0, 0, 0, 0.01), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.icon{
+    font-size: 20px;
+}
+
+#user-name {
+    margin-left: 10px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+#name {
+    display: flex;
+    flex-direction: column;    
+    line-height: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#profile {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    --border-radius: 10px;
+}

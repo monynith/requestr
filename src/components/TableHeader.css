@@ -1,0 +1,17 @@
+#table-header-container{
+    margin-bottom: 10px;
+    margin-top: 40px;    
+    padding:10px;
+    border-radius: 10px;
+    display: inline-flex;    
+    align-items: center;    
+    flex-direction: row;
+    min-width: 100%;
+}
+
+.table-header-name {
+    position: relative;
+    font-size: 14px;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
